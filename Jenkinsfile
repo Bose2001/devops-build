@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/<your-username>/<your-repo>.git'
+                git branch: 'master', url: 'https://github.com/Bose2001/devops-build.git'
             }
         }
 
